@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home,  crop, locations, rainfall , db, new, price
+from app import home,  crop, locations, rainfall , db, new, price
 
 from PIL import Image
 st.set_page_config(layout="wide")
